@@ -1,0 +1,7 @@
+.*
+!.gitignore
+node_modules/
+*.marko.js
+*.pem
+*.crt
+*.key

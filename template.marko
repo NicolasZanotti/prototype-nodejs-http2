@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Streaming Template Test</title>
+		<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+	</head>
+	<body>
+		<p>More text should appear in 5 seconds:</p>
+		<await(message from input.timeOutPromise)>
+			<p>${message}</p>
+		</await>
+	</body>
+</html>

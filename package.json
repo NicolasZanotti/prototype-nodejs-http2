@@ -1,0 +1,15 @@
+{
+  "name": "prototype-http2",
+  "version": "1.0.0",
+  "description": "Prototype using HTTP2 with Koa and Marko.",
+  "main": "index.js",
+  "author": "Nicolas Zanotti",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "koa": "2.5.0",
+    "marko": "4.9.6"
+  },
+  "engines": {
+    "node": ">9"
+  }
+}
